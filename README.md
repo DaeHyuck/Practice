@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -20,7 +19,7 @@
       <li><a href="https://people.search.naver.com/search.naver?where=nexearch&sm=tab_ppn&query=%EC%97%91%ED%86%A0%EB%A5%B4%EB%B2%A0%EC%98%88%EB%A6%B0&os=2337541&ie=utf8&key=PeopleService" target="_blank" title="검색 결과로 이동">베예린</a></li>
       <li><a href="https://people.search.naver.com/search.naver?where=nexearch&sm=tab_ppn&query=%EB%B2%A0%EB%A5%B8%ED%8A%B8%EB%A0%88%EB%85%B8&os=248172&ie=utf8&key=PeopleService" target="_blank" title="검색 결과로 이동">레노</a></li>
     </ul><br><br>
-    <form action="https://daehyuck.github.io/web1/" method="post">
+    <form action="https://daehyuck.github.io/Practice/" method="post">
       <font size="3" color="black" color2="red"><strong>선수별 하이라이트-></strong></font>
       <select name="highlight">
         <option value="red">오바메양</option>
