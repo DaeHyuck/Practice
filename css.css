@@ -1,0 +1,41 @@
+  h1{
+    font-size: 50px;
+    padding-left: 30px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display:inline;
+  }
+  #top{
+    border-bottom: 4px solid brown;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  span{
+    padding-left: 100px;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+  }
+  a{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+  }
+  li{
+    border-right: 2px solid brown;
+    padding: 7px;
+  }
+  #grid li{
+    padding-left: 30px;
+  }
+  #grid #article{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+  }
