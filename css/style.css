@@ -1,0 +1,39 @@
+h2{
+  font-style: italic;
+  font-weight: 600;
+}
+.standout{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.standout{
+  color: #117A65;
+}
+#red{
+  color: #C0392B;
+}
+em{
+  line-height: 2.5;
+  font-weight: bolder;
+}
+a{
+  text-decoration: none;
+}
+dl{
+  text-align: center;
+}
+aside{
+  background-color: #C39BD3;
+  color: #F9E79F;
+  font-size: 20px;
+  word-spacing: 20px;
+  font-family: cursive;
+}
+aside::first-letter{
+  font-size: 200%;
+  font-weight: bolder;
+}
+footer{
+  text-align: center;
+  text-shadow: 2px 1px;
+}
