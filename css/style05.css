@@ -1,0 +1,96 @@
+footer {
+  text-align: center;
+  text-shadow: 2px 1px;
+  background-color: rgb(9, 1, 102);
+  color: rgba(0, 193, 254, 0.98);
+  padding: 25px;
+  margin: 0 0 0 0;
+}
+body {
+  margin: 0;
+}
+/** set the margin for the body element to zero**/
+#bodyheader {
+  text-align: center;
+  background-color: rgb(9, 1, 102);
+  color: rgba(0, 193, 254, 0.98);
+  padding: 35px;
+  position: sticky;
+  top: 0;
+  margin: 0 0 0 0;
+  z-index: 1;
+  /**Set the correct CSS property on it to guarantee that it is always on top of everything else**/
+}
+/**center the text, make the background a dark shade of any color, set text color to ve a contrasting color to the background, add padding, affix it to the top of the screen, stretch the entire width of the browser window**/
+section {
+  margin: 8px;
+}
+/**set the margin for all section elements to 8px**/
+h2 {
+  background-color: rgb(0, 133, 255);
+  /**set similar background color to header**/
+  color: rgb(0, 47, 167);
+  /**set contrasting text color**/
+  padding: 10px;
+  /**padding 10 px**/
+  border-radius: 20px;
+  /**rounded corner**/
+}
+/*---------------------------------------------------------------------------------*/
+#explain{
+  font-family: sans-serif;
+  color: rgb(0, 47, 167);
+  font-size: 22px;
+}
+section#userinput > label{
+  width: 60%;
+  font-weight: bold;
+  margin: 5px;
+  text-align: right;
+}
+section#userinput > input{
+  padding: 5px;
+  margin-bottom: 5px;
+}
+section#results > table{      /* 2.C번 문제 */
+  margin-bottom: 2em;
+  width: 100%;
+  border-collapse: collapse;
+  border: solid 2px;
+  box-shadow: 2px 2px;
+}
+section th{
+  text-align: right;
+  background-color: skyblue;
+  border-bottom: solid 2px skyblue;
+  border-right: solid 2px;
+}
+section td{
+  text-align: right;
+  width: 20%;
+  border-bottom: solid 2px;
+  border-right: solid 2px;
+}
+section caption{
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: left;
+}
+section#userinput{
+  width: 500px;
+  margin-left: 50px;
+  border: 2px solid rgb(5, 33, 117);
+  padding: 40px;
+}
+
+label{
+  display: inline-block;
+}
+#results{
+  width: 500px;
+  position: relative;
+  left: 800px;
+  top: -300px;
+}
