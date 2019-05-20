@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewpoint" content="width=device-width, intial-scale=1.0">
+  <title>An Insider's Guide to Jochiwon: Trip Cost Estimator</title>
+  <!--1.A번 문제-->
+  <link rel="stylesheet" href="css/style05.css">
+  <!--1.B번 문제-->
+</head>
+
+<body>
+  <header id="bodyheader">
+    <!--1.C번 문제-->
+    <h1>세종특별자치시, 조치원읍을 소개합니다</h1>
+    <div>
+      <b>인구:</b> 2019년 기준 <i>(45,533명)</i>
+    </div>
+  </header>
+  <section id="calcintro">
+    <!-- 1.D번 문제 -->
+    <header>
+      <h2>Trip Cost Calculator</h2>
+      <p id="explain">Let's calculate your trip cost. Fill in the blanks to calculate.</p>
+    </header>
+  </section>
+  <section id="userinput">
+    <!-- 1.E번 문제 -->
+    <label>Number of nights staying</label>
+    <input type="number" id="nights" value="1" onchange="updateNights()">
+    <label>Number of rooms being booked</label>
+    <input type="number" id="rooms" value="1" onchange="updateRooms()">
+    <label>Number of adults and teens(13+)</label>
+    <input type="number" id="adults" value="1" onchange="updateAdults()">
+    <label>Number of children(12-)</label>
+    <input type="number" id="children" value="0" onchange="updateChildren()">
+    <label>Type of hetel</label>
+    <select id="hotel" onchange="updateHotel()">
+      <option value="b">Budget</option>
+      <option value="l">Luxury</option>
+    </select>
+  </section>
+  <section id="results">
+    <script src="js/cost.js"></script>
+  </section>
+  <footer>&copy 2019 by Yu Dae-Hyuck</footer>
+
+</body>
+
+</html>
