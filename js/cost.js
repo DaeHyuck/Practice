@@ -1,6 +1,6 @@
 var hotel = {
-  budgetPrice: 70000,
-  luxuryPrice: 200000,
+  budgetPrice: 70,
+  luxuryPrice: 200,
   tax: 0.1,
   nights: 1,
   rooms: 1,
